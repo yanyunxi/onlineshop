@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/drawable/buy_bg.xml" value="0.23981481481481481" />
         <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.26979166666666665" />
         <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/drawable/search.xml" value="0.26979166666666665" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/activity_all.xml" value="0.2125" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/activity_all_category.xml" value="0.21936936936936938" />
         <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/activity_product_details.xml" value="0.22546296296296298" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/all_category_row_items.xml" value="0.21936936936936938" />
         <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/category_row_items.xml" value="0.21936936936936938" />
         <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/discounted_row_items.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop/app/src/main/res/layout/recently_viewed_items.xml" value="0.8800000000000001" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23981481481481481" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/drawable/buy_bg.xml" value="0.23981481481481481" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23981481481481481" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/drawable/ic_launcher_background1.xml" value="0.23657407407407408" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/layout/activity_main.xml" value="0.22546296296296298" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/layout/icon.xml" value="0.22546296296296298" />
+        <entry key="..\:/AndroidStudioProjects/onlineshop1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23657407407407408" />
       </map>
     </option>
   </component>

@@ -10,30 +10,33 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.swufestu.onlineshop.AllCategory;
 import com.swufestu.onlineshop.ProductDetails;
 import com.swufestu.onlineshop.R;
+import com.swufestu.onlineshop.model.AllCategoryModel;
 import com.swufestu.onlineshop.model.item;
 
 import java.util.List;
 
-public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
+public class AllCategoryAdapter extends RecyclerView.Adapter<AllCategoryAdapter.AllCategoryViewHolder> {
+
     Context context;
     List<item> categoryList;
 
-    public CategoryAdapter(Context context, List<item> categoryList) {
+    public AllCategoryAdapter(Context context, List<item> categoryList) {
         this.context = context;
         this.categoryList = categoryList;
     }
 
     @NonNull
     @Override
-    public CategoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.category_row_items,parent,false);
-        return new CategoryViewHolder(view);
+    public AllCategoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(context).inflate(R.layout.all_category_row_items,parent,false);
+        return new AllCategoryViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CategoryViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AllCategoryViewHolder holder, int position) {
         holder.categoryImage.setImageResource(categoryList.get(position).getImageurl());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,10 +56,10 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
         return categoryList.size();
     }
 
-    public static class CategoryViewHolder extends RecyclerView.ViewHolder{
+    public static class AllCategoryViewHolder extends RecyclerView.ViewHolder{
         ImageView categoryImage;
 
-        public CategoryViewHolder(@NonNull View itemView) {
+        public AllCategoryViewHolder(@NonNull View itemView) {
             super(itemView);
             categoryImage = itemView.findViewById((R.id.categoryImage));
         }

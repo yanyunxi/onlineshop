@@ -1,6 +1,7 @@
 package com.swufestu.onlineshop.model;
 
-public class Category {
+public class RecentlyViewed {
+
     Integer id;
     Integer imageurl;
     String name;
@@ -11,7 +12,7 @@ public class Category {
     int imageUrl;
     int bigimageurl;
 
-    public Category(Integer id, Integer imageurl, String name, String price, int imageUrl) {
+    public RecentlyViewed(Integer id, Integer imageurl, String name, String price, int imageUrl) {
         this.id = id;
         this.imageurl = imageurl;
         this.name = name;
